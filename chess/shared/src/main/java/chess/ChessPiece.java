@@ -1,5 +1,6 @@
 package chess;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Objects;
 
@@ -52,7 +53,15 @@ public class ChessPiece {
      * @return Collection of valid moves
      */
     public Collection<ChessMove> pieceMoves(ChessBoard board, ChessPosition myPosition) {
-        throw new RuntimeException("Not implemented");
+        Collection<ChessMove> moves = new ArrayList<>();
+        if (type != PieceType.PAWN) {
+            RegMoveCalculator moveCalculator = new RegMoveCalculator(board, myPosition, getTeamColor(), moves, type);
+            moveCalculator.regPieceMoveLogic();}
+        else {
+            PawnMoveCalculator pawnMoveCalculator = new PawnMoveCalculator(board, myPosition, getTeamColor(), moves);
+            pawnMoveCalculator.calculateMoves();
+        }
+        return moves;
     }
 
     @Override
