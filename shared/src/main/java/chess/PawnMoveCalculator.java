@@ -11,9 +11,11 @@ public class PawnMoveCalculator {
     private Collection<ChessMove> ogList;
     private int row;
     private int col;
-    private List<ChessPiece.PieceType> promotionPieces = Arrays.asList(ChessPiece.PieceType.QUEEN, ChessPiece.PieceType.KNIGHT, ChessPiece.PieceType.ROOK, ChessPiece.PieceType.BISHOP);
+    private List<ChessPiece.PieceType> promotionPieces = Arrays.asList(ChessPiece.PieceType.QUEEN,
+            ChessPiece.PieceType.KNIGHT, ChessPiece.PieceType.ROOK, ChessPiece.PieceType.BISHOP);
 
-    public PawnMoveCalculator(ChessBoard board, ChessPosition position, ChessGame.TeamColor teamColor, Collection<ChessMove> ogList) {
+    public PawnMoveCalculator(ChessBoard board, ChessPosition position,
+                              ChessGame.TeamColor teamColor, Collection<ChessMove> ogList) {
         this.board = board;
         this.position = position;
         this.teamColor = teamColor;

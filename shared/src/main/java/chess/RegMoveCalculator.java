@@ -22,7 +22,8 @@ public class RegMoveCalculator {
     private Collection<ChessMove> ogList;
     private ChessPiece.PieceType pieceType;
 
-    public RegMoveCalculator(ChessBoard board, ChessPosition position, ChessGame.TeamColor teamColor, Collection<ChessMove> ogList,ChessPiece.PieceType pieceType) {
+    public RegMoveCalculator(ChessBoard board, ChessPosition position, ChessGame.TeamColor teamColor,
+                             Collection<ChessMove> ogList,ChessPiece.PieceType pieceType) {
         this.board = board;
         this.position = position;
         this.teamColor = teamColor;
