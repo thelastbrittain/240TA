@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f7397edc-0804-4565-8098-a9b8b87b6230" name="Changes" comment="Copy PieceMoves from old code. Pass all tests in phase 0.">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/TAProject.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10k-architecture.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/client.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/lib/passoff-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/server.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/shared.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/chess/ChessBoard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/chess/ChessGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/chess/ChessMove.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/chess/ChessPiece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/chess/ChessPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/chess/InvalidMoveException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/chess/PawnMoveCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/main/java/chess/RegMoveCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/test/java/passoff/chess/ChessBoardTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/test/java/passoff/chess/ChessMoveTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/test/java/passoff/chess/ChessPositionTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/test/java/passoff/chess/TestUtilities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/test/java/passoff/chess/piece/BishopMoveTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/test/java/passoff/chess/piece/KingMoveTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/test/java/passoff/chess/piece/KnightMoveTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/test/java/passoff/chess/piece/PawnMoveTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/test/java/passoff/chess/piece/QueenMoveTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared/src/test/java/passoff/chess/piece/RookMoveTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/1-chess-game/passoff/chess/extracredit/CastlingTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/1-chess-game/passoff/chess/extracredit/EnPassantTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/1-chess-game/passoff/chess/game/FullGameTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/1-chess-game/passoff/chess/game/GameStatusTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/1-chess-game/passoff/chess/game/MakeMoveTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/1-chess-game/passoff/chess/game/ValidMovesTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/3-web-api/dataaccess/DataAccessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/3-web-api/passoff/server/StandardAPITests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/3-web-api/resources/web/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/3-web-api/resources/web/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/3-web-api/resources/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/3-web-api/resources/web/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/3-web-api/server/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/4-database/dataaccess/DatabaseManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/4-database/passoff/server/DatabaseTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/4-database/resources/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/5-pregame/client/ServerFacadeTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/5-pregame/ui/EscapeSequences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/6-gameplay/passoff/server/TestFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/6-gameplay/passoff/server/WebSocketTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/6-gameplay/websocket/commands/UserGameCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-code/6-gameplay/websocket/messages/ServerMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-dependencies-assembly.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;thelastbrittain&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/thelastbrittain/240TA.git&quot;,
+    &quot;accountId&quot;: &quot;eea38834-7be0-4180-8ddb-a63c3aaad792&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2rH03GE7FrPnYe0kfZFGTTqFsBy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ChessBoardTests.defaultGameBoard.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChessBoardTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChessBoardTests.getAddPiece.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChessMoveTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChessPositionTests.equalsTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChessPositionTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ChessPositionTests.hashTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.passoff.chess in shared.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.passoff.chess.piece in shared.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Applications/devProjects/TAProject/chess&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="JUnit.passoff.chess in shared">
+    <configuration name="ChessBoardTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shared" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.chess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff.chess" />
+      <option name="MAIN_CLASS_NAME" value="passoff.chess.ChessBoardTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChessMoveTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shared" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.chess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff.chess" />
+      <option name="MAIN_CLASS_NAME" value="passoff.chess.ChessMoveTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ChessPositionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shared" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.chess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff.chess" />
+      <option name="MAIN_CLASS_NAME" value="passoff.chess.ChessPositionTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="passoff.chess in shared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shared" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.chess.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff.chess" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="passoff.chess.piece in shared" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shared" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="passoff.chess.piece.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="passoff.chess.piece" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.passoff.chess in shared" />
+        <item itemvalue="JUnit.passoff.chess.piece in shared" />
+        <item itemvalue="JUnit.ChessMoveTests" />
+        <item itemvalue="JUnit.ChessBoardTests" />
+        <item itemvalue="JUnit.ChessPositionTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7397edc-0804-4565-8098-a9b8b87b6230" name="Changes" comment="" />
+      <created>1736200491491</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736200491491</updated>
+      <workItem from="1736200492533" duration="4158000" />
+      <workItem from="1736468646757" duration="125000" />
+    </task>
+    <task id="LOCAL-00001" summary="Finish code for ChessPosition -- passes tests. Create rough draft for code for ChessPiece">
+      <option name="closed" value="true" />
+      <created>1736201793733</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736201793733</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Pass ChessBoard get piece test">
+      <option name="closed" value="true" />
+      <created>1736202270318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1736202270318</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Pass ChessBoard default board test">
+      <option name="closed" value="true" />
+      <created>1736203082029</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736203082029</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Pass Chess Move Tests">
+      <option name="closed" value="true" />
+      <created>1736203267286</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736203267286</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Copy PieceMoves from old code. Pass all tests in phase 0.">
+      <option name="closed" value="true" />
+      <created>1736204984414</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736204984414</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finish code for ChessPosition -- passes tests. Create rough draft for code for ChessPiece" />
+    <MESSAGE value="Pass ChessBoard get piece test" />
+    <MESSAGE value="Pass ChessBoard default board test" />
+    <MESSAGE value="Pass Chess Move Tests" />
+    <MESSAGE value="Copy PieceMoves from old code. Pass all tests in phase 0." />
+    <option name="LAST_COMMIT_MESSAGE" value="Copy PieceMoves from old code. Pass all tests in phase 0." />
+  </component>
+</project>
